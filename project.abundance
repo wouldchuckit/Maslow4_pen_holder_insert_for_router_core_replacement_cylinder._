@@ -7,16 +7,16 @@
   "ioValues": [
     {
       "name": "WoodThick",
-      "ioValue": 10,
-      "currentEquation": "10"
+      "ioValue": 12.7
     },
     {
       "name": "WallThick",
-      "ioValue": 10
+      "ioValue": 6
     },
     {
-      "name": "Input",
-      "ioValue": 10
+      "name": "Bit_Diameter",
+      "ioValue": 3.175,
+      "currentEquation": "3.175"
     }
   ],
   "topLevel": true,
@@ -2553,7 +2553,15 @@
       "atomType": "Input",
       "x": 0.01815,
       "y": 0.2913533487297921,
-      "uniqueID": "id-777"
+      "uniqueID": "id-777",
+      "name": "Bit_Diameter"
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.02696871628910464,
+      "y": 0.4503464203233256,
+      "uniqueID": "id-780",
+      "value": 10
     }
   ],
   "allConnectors": [
