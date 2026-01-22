@@ -15,8 +15,7 @@
     },
     {
       "name": "Bit_Diameter",
-      "ioValue": 3.175,
-      "currentEquation": "3.175"
+      "ioValue": 3.175
     }
   ],
   "topLevel": true,
@@ -32,6 +31,65 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.19579288025889965,
+      "y": 0.7043879907621247,
+      "uniqueID": "id-765",
+      "name": "Extract Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tag": "LowerClampRing",
+      "tagIndex": 0
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.19471413160733547,
+      "y": 0.8706697459584295,
+      "uniqueID": "id-768",
+      "name": "Extract Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tag": "LowerRing",
+      "tagIndex": 0
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.10999999999999999,
+      "uniqueID": "id-771",
+      "name": "WoodThick"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.176,
+      "uniqueID": "id-774",
+      "name": "WallThick"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.242,
+      "uniqueID": "id-777",
+      "name": "Bit_Diameter"
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.02696871628910464,
+      "y": 0.4503464203233256,
+      "uniqueID": "id-780",
+      "name": "RouterDiameter",
+      "value": 69
     },
     {
       "atomType": "GitHubMolecule",
@@ -2504,65 +2562,6 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "ExtractTag",
-      "x": 0.19579288025889965,
-      "y": 0.7043879907621247,
-      "uniqueID": "id-765",
-      "name": "Extract Tag",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "tag": "LowerClampRing",
-      "tagIndex": 0
-    },
-    {
-      "atomType": "ExtractTag",
-      "x": 0.19471413160733547,
-      "y": 0.8706697459584295,
-      "uniqueID": "id-768",
-      "name": "Extract Tag",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "tag": "LowerRing",
-      "tagIndex": 0
-    },
-    {
-      "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.15935334872979215,
-      "uniqueID": "id-771",
-      "name": "WoodThick"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.22535334872979215,
-      "uniqueID": "id-774",
-      "name": "WallThick"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.2913533487297921,
-      "uniqueID": "id-777",
-      "name": "Bit_Diameter"
-    },
-    {
-      "atomType": "Constant",
-      "x": 0.02696871628910464,
-      "y": 0.4503464203233256,
-      "uniqueID": "id-780",
-      "name": "RouterDiameter",
-      "value": 69
     }
   ],
   "allConnectors": [
