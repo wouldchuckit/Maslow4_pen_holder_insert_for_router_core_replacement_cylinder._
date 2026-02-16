@@ -2643,8 +2643,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.22552083333333336,
-      "y": 0.2777777777777778,
+      "x": 0.19427083333333334,
+      "y": 0.3285024154589372,
       "uniqueID": "id-1116",
       "name": "x -  y",
       "ioValues": [
@@ -2658,6 +2658,24 @@
         }
       ],
       "currentEquation": "x -  y"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.26666666666666666,
+      "y": 0.41787439613526567,
+      "uniqueID": "id-1120",
+      "name": "x + y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 24
+        },
+        {
+          "name": "y",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "x + y"
     }
   ],
   "allConnectors": [
@@ -2715,6 +2733,11 @@
       "ap2Name": "x",
       "ap1ID": "id-1112",
       "ap2ID": "id-1116"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-1116",
+      "ap2ID": "id-1120"
     }
   ],
   "unitsKey": "MM",
