@@ -2905,8 +2905,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.5828125,
-      "y": 0.9057971014492753,
+      "x": 0.5859375,
+      "y": 0.8937198067632851,
       "uniqueID": "id-1186",
       "ioValues": [
         {
@@ -3080,6 +3080,60 @@
         }
       ],
       "unionType": "Fusion"
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.49270833333333336,
+      "y": 0.19806763285024154,
+      "uniqueID": "id-1196",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 3.175
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.5578124999999999,
+      "y": 0.33091787439613524,
+      "uniqueID": "id-1200",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": -3.175
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.4911458333333334,
+      "y": 0.3357487922705314,
+      "uniqueID": "id-1206",
+      "name": "-z",
+      "ioValues": [
+        {
+          "name": "z",
+          "ioValue": 3.175
+        }
+      ],
+      "currentEquation": "-z"
     }
   ],
   "allConnectors": [
@@ -3245,6 +3299,21 @@
     },
     {
       "ap2Name": "geometry",
+      "ap1ID": "id-1166",
+      "ap2ID": "id-1196"
+    },
+    {
+      "ap2Name": "height",
+      "ap1ID": "id-1170",
+      "ap2ID": "id-1196"
+    },
+    {
+      "ap2Name": "z",
+      "ap1ID": "id-1170",
+      "ap2ID": "id-1206"
+    },
+    {
+      "ap2Name": "geometry",
       "ap1ID": "id-1176",
       "ap2ID": "id-1180"
     },
@@ -3257,6 +3326,16 @@
       "ap2Name": "Shape 2",
       "ap1ID": "id-1180",
       "ap2ID": "id-1191"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1196",
+      "ap2ID": "id-1200"
+    },
+    {
+      "ap2Name": "zDist",
+      "ap1ID": "id-1206",
+      "ap2ID": "id-1200"
     }
   ],
   "unitsKey": "MM",
