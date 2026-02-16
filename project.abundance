@@ -16,6 +16,14 @@
     {
       "name": "Bit_Diameter",
       "ioValue": 3.175
+    },
+    {
+      "name": "ThinWoodThick",
+      "ioValue": 3.175
+    },
+    {
+      "name": "RodDiameter",
+      "ioValue": 3.3
     }
   ],
   "topLevel": true,
@@ -79,7 +87,7 @@
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.22,
+      "y": 0.2801932367149758,
       "uniqueID": "id-777",
       "name": "Bit_Diameter"
     },
@@ -93,8 +101,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.64375,
-      "y": 0.9106280193236714,
+      "x": 0.615625,
+      "y": 0.8840579710144928,
       "uniqueID": "id-462",
       "name": "Maslow4_Router_core_replacement_cylinder",
       "ioValues": [
@@ -2577,8 +2585,8 @@
     },
     {
       "atomType": "Constant",
-      "x": 0.028645833333333336,
-      "y": 0.8792270531400966,
+      "x": 0.027083333333333334,
+      "y": 0.8743961352657004,
       "uniqueID": "id-1100",
       "name": "CentralHole",
       "value": 39
@@ -2643,8 +2651,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.10364583333333334,
-      "y": 0.20289855072463767,
+      "x": 0.09947916666666667,
+      "y": 0.1956521739130435,
       "uniqueID": "id-1116",
       "name": "x -  y",
       "ioValues": [
@@ -2664,7 +2672,7 @@
       "x": 0.15052083333333335,
       "y": 0.25362318840579706,
       "uniqueID": "id-1120",
-      "name": "(x )/2 + y/2",
+      "name": "(x )/4 + y/2",
       "ioValues": [
         {
           "name": "x",
@@ -2675,7 +2683,7 @@
           "ioValue": 39
         }
       ],
-      "currentEquation": "(x )/2 + y/2"
+      "currentEquation": "(x )/4 + y/2"
     },
     {
       "atomType": "Equation",
@@ -2686,7 +2694,7 @@
       "ioValues": [
         {
           "name": "r",
-          "ioValue": 31.5
+          "ioValue": 25.5
         }
       ],
       "currentEquation": "-r"
@@ -2703,7 +2711,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 31.5
+          "ioValue": 25.5
         },
         {
           "name": "yDist",
@@ -2727,7 +2735,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": -31.5
+          "ioValue": -25.5
         },
         {
           "name": "yDist",
@@ -2827,8 +2835,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.26510416666666664,
-      "y": 0.7632850241545893,
+      "x": 0.23541666666666664,
+      "y": 0.7753623188405797,
       "uniqueID": "id-1166",
       "ioValues": [
         {
@@ -2840,6 +2848,20 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.3454106280193237,
+      "uniqueID": "id-1170",
+      "name": "ThinWoodThick"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.2173913043478261,
+      "uniqueID": "id-1173",
+      "name": "RodDiameter"
     }
   ],
   "allConnectors": [
