@@ -2581,7 +2581,19 @@
       "y": 0.5169082125603864,
       "uniqueID": "id-1100",
       "name": "CentralHole",
-      "value": 10
+      "value": 49
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.1296875,
+      "y": 0.5217391304347826,
+      "uniqueID": "id-1102",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 49
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -2599,6 +2611,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-462",
       "ap2ID": "id-768"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-1100",
+      "ap2ID": "id-1102"
     }
   ],
   "unitsKey": "MM",
