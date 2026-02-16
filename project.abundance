@@ -625,8 +625,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5802083333333333,
-      "y": 0.4758454106280194,
+      "x": 0.5833333333333334,
+      "y": 0.47101449275362317,
       "uniqueID": "id-1200",
       "ioValues": [
         {
@@ -701,36 +701,32 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.721875,
-      "y": 0.45410628019323673,
+      "x": 0.7291666666666666,
+      "y": 0.4758454106280194,
       "uniqueID": "id-1222",
       "ioValues": [
         {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 3",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 4",
-          "ioValue": null
-        },
-        {
           "name": "Shape 5",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 6",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 7",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 8",
           "ioValue": null
         }
       ]
     },
     {
       "atomType": "Circle",
-      "x": 0.4447916666666667,
-      "y": 0.12560386473429952,
+      "x": 0.40989583333333335,
+      "y": 0.10869565217391305,
       "uniqueID": "id-1229",
       "ioValues": [
         {
@@ -741,8 +737,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.48802083333333335,
-      "y": 0.13043478260869565,
+      "x": 0.45468749999999997,
+      "y": 0.10144927536231883,
       "uniqueID": "id-1232",
       "ioValues": [
         {
@@ -757,8 +753,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.5447916666666667,
-      "y": 0.13043478260869565,
+      "x": 0.496875,
+      "y": 0.10144927536231883,
       "uniqueID": "id-1236",
       "ioValues": [
         {
@@ -820,8 +816,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.6005208333333333,
-      "y": 0.13285024154589373,
+      "x": 0.5427083333333333,
+      "y": 0.10144927536231883,
       "uniqueID": "id-1241",
       "ioValues": [
         {
@@ -836,8 +832,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.6520833333333333,
-      "y": 0.1400966183574879,
+      "x": 0.5854166666666667,
+      "y": 0.1111111111111111,
       "uniqueID": "id-1245",
       "name": "2*x + y",
       "ioValues": [
@@ -854,8 +850,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.7213541666666667,
-      "y": 0.13043478260869565,
+      "x": 0.6515625,
+      "y": 0.1111111111111111,
       "uniqueID": "id-1249",
       "ioValues": [
         {
@@ -3545,6 +3541,86 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.6510416666666666,
+      "y": 0.3647342995169082,
+      "uniqueID": "id-2168",
+      "name": "ThinWood",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tags": [
+        "ThinWood"
+      ]
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.6541666666666667,
+      "y": 0.4782608695652174,
+      "uniqueID": "id-2171",
+      "name": "ThinWood",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tags": [
+        "ThinWood"
+      ]
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.6505208333333333,
+      "y": 0.6811594202898551,
+      "uniqueID": "id-2174",
+      "name": "ThickWood",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tags": [
+        "ThickWood"
+      ]
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.6541666666666667,
+      "y": 0.8961352657004832,
+      "uniqueID": "id-2177",
+      "name": "ThickWood",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tags": [
+        "ThickWood"
+      ]
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.7161458333333333,
+      "y": 0.11835748792270533,
+      "uniqueID": "id-2180",
+      "name": "ThinWood",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tags": [
+        "ThinWood"
+      ]
     }
   ],
   "allConnectors": [
@@ -3764,14 +3840,14 @@
       "ap2ID": "id-1191"
     },
     {
-      "ap2Name": "Shape 4",
+      "ap2Name": "geometry",
       "ap1ID": "id-1186",
-      "ap2ID": "id-1222"
+      "ap2ID": "id-2177"
     },
     {
-      "ap2Name": "Shape 3",
+      "ap2Name": "geometry",
       "ap1ID": "id-1191",
-      "ap2ID": "id-1222"
+      "ap2ID": "id-2174"
     },
     {
       "ap2Name": "geometry",
@@ -3784,9 +3860,9 @@
       "ap2ID": "id-1216"
     },
     {
-      "ap2Name": "Shape 2",
+      "ap2Name": "geometry",
       "ap1ID": "id-1200",
-      "ap2ID": "id-1222"
+      "ap2ID": "id-2171"
     },
     {
       "ap2Name": "zDist",
@@ -3799,9 +3875,9 @@
       "ap2ID": "id-1216"
     },
     {
-      "ap2Name": "Shape 1",
+      "ap2Name": "geometry",
       "ap1ID": "id-1216",
-      "ap2ID": "id-1222"
+      "ap2ID": "id-2168"
     },
     {
       "ap2Name": "number or geometry",
@@ -3844,24 +3920,19 @@
       "ap2ID": "id-1249"
     },
     {
-      "ap2Name": "Shape 5",
-      "ap1ID": "id-1249",
-      "ap2ID": "id-1222"
-    },
-    {
       "ap2Name": "value",
       "ap1ID": "id-1249",
       "ap2ID": "id-1256"
     },
     {
       "ap2Name": "geometry",
-      "ap1ID": "id-1264",
-      "ap2ID": "id-1708"
+      "ap1ID": "id-1249",
+      "ap2ID": "id-2180"
     },
     {
       "ap2Name": "geometry",
       "ap1ID": "id-1264",
-      "ap2ID": "id-1713"
+      "ap2ID": "id-1708"
     },
     {
       "ap2Name": "geometry",
@@ -3872,6 +3943,26 @@
       "ap2Name": "geometry",
       "ap1ID": "id-462",
       "ap2ID": "id-768"
+    },
+    {
+      "ap2Name": "Shape 6",
+      "ap1ID": "id-2168",
+      "ap2ID": "id-1222"
+    },
+    {
+      "ap2Name": "Shape 7",
+      "ap1ID": "id-2171",
+      "ap2ID": "id-1222"
+    },
+    {
+      "ap2Name": "Shape 8",
+      "ap1ID": "id-2174",
+      "ap2ID": "id-1222"
+    },
+    {
+      "ap2Name": "Shape 5",
+      "ap1ID": "id-2180",
+      "ap2ID": "id-1222"
     }
   ],
   "unitsKey": "MM",
