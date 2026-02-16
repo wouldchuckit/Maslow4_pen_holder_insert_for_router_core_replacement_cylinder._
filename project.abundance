@@ -34,8 +34,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.09010416666666667,
-      "y": 0.7898550724637682,
+      "x": 0.08958333333333333,
+      "y": 0.785024154589372,
       "uniqueID": "id-765",
       "name": "Extract Tag",
       "ioValues": [
@@ -49,8 +49,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.09166666666666667,
-      "y": 0.9541062801932367,
+      "x": 0.08645833333333333,
+      "y": 0.9637681159420289,
       "uniqueID": "id-768",
       "name": "Extract Tag",
       "ioValues": [
@@ -2565,13 +2565,13 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.07135416666666666,
-      "y": 0.34057971014492755,
+      "x": 0.09270833333333334,
+      "y": 0.3357487922705314,
       "uniqueID": "id-1097",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 69
+          "ioValue": 63
         }
       ]
     },
@@ -2581,24 +2581,24 @@
       "y": 0.4734299516908213,
       "uniqueID": "id-1100",
       "name": "CentralHole",
-      "value": 49
+      "value": 39
     },
     {
       "atomType": "Circle",
-      "x": 0.0703125,
-      "y": 0.46135265700483086,
+      "x": 0.09479166666666666,
+      "y": 0.5,
       "uniqueID": "id-1102",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 49
+          "ioValue": 39
         }
       ]
     },
     {
       "atomType": "Difference",
-      "x": 0.12447916666666667,
-      "y": 0.42512077294685996,
+      "x": 0.15885416666666666,
+      "y": 0.4347826086956522,
       "uniqueID": "id-1105",
       "ioValues": [
         {
@@ -2622,18 +2622,41 @@
           "ioValue": 3.175
         }
       ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.052083333333333336,
+      "y": 0.33816425120772947,
+      "uniqueID": "id-1112",
+      "name": "x - y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 69
+        },
+        {
+          "name": "y",
+          "ioValue": 6
+        }
+      ],
+      "currentEquation": "x - y"
     }
   ],
   "allConnectors": [
+    {
+      "ap2Name": "y",
+      "ap1ID": "id-774",
+      "ap2ID": "id-1112"
+    },
     {
       "ap2Name": "diameter",
       "ap1ID": "id-777",
       "ap2ID": "id-1109"
     },
     {
-      "ap2Name": "diameter",
+      "ap2Name": "x",
       "ap1ID": "id-780",
-      "ap2ID": "id-1097"
+      "ap2ID": "id-1112"
     },
     {
       "ap2Name": "geometry",
@@ -2659,6 +2682,11 @@
       "ap2Name": "geometry2",
       "ap1ID": "id-1102",
       "ap2ID": "id-1105"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-1112",
+      "ap2ID": "id-1097"
     }
   ],
   "unitsKey": "MM",
