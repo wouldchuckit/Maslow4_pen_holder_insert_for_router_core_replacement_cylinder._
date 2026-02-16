@@ -30,8 +30,8 @@
   "allAtoms": [
     {
       "atomType": "Output",
-      "x": 0.98,
-      "y": 0.5,
+      "x": 0.9838541666666666,
+      "y": 0.391304347826087,
       "uniqueID": "id-2",
       "ioValues": [
         {
@@ -701,8 +701,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.7291666666666666,
-      "y": 0.4758454106280194,
+      "x": 0.7432291666666667,
+      "y": 0.4927536231884058,
       "uniqueID": "id-1222",
       "ioValues": [
         {
@@ -719,6 +719,10 @@
         },
         {
           "name": "Shape 8",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 9",
           "ioValue": null
         }
       ]
@@ -919,8 +923,8 @@
     },
     {
       "atomType": "Readme",
-      "x": 0.759375,
-      "y": 0.7971014492753623,
+      "x": 0.734375,
+      "y": 0.8695652173913044,
       "uniqueID": "id-1262",
       "name": "README",
       "ioValues": [
@@ -934,8 +938,8 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.8416666666666667,
-      "y": 0.8357487922705313,
+      "x": 0.8802083333333333,
+      "y": 0.7125603864734299,
       "uniqueID": "id-1264",
       "name": "Cut Layout",
       "ioValues": [
@@ -1007,8 +1011,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.9151041666666666,
-      "y": 0.6763285024154589,
+      "x": 0.9822916666666668,
+      "y": 0.7077294685990339,
       "uniqueID": "id-1708",
       "ioValues": [
         {
@@ -1037,8 +1041,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.9276041666666668,
-      "y": 0.9057971014492753,
+      "x": 0.9260416666666667,
+      "y": 0.7198067632850241,
       "uniqueID": "id-1713",
       "ioValues": [
         {
@@ -1069,6 +1073,86 @@
       ],
       "partName": "Maslow4_pen_holder_insert_for_router_core_replacement_cylinder_",
       "sortDirection": "Left"
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.6520833333333333,
+      "y": 0.35990338164251207,
+      "uniqueID": "id-2168",
+      "name": "ThinWood",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tags": [
+        "ThinWood"
+      ]
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.6541666666666667,
+      "y": 0.4782608695652174,
+      "uniqueID": "id-2171",
+      "name": "ThinWood",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tags": [
+        "ThinWood"
+      ]
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.6526041666666667,
+      "y": 0.6545893719806763,
+      "uniqueID": "id-2174",
+      "name": "ThickWood",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tags": [
+        "ThickWood"
+      ]
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.653125,
+      "y": 0.8840579710144928,
+      "uniqueID": "id-2177",
+      "name": "ThickWood",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tags": [
+        "ThickWood"
+      ]
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.71875,
+      "y": 0.10386473429951691,
+      "uniqueID": "id-2180",
+      "name": "ThinWood",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tags": [
+        "ThinWood"
+      ]
     },
     {
       "atomType": "GitHubMolecule",
@@ -3543,84 +3627,170 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Tag",
-      "x": 0.6510416666666666,
-      "y": 0.3647342995169082,
-      "uniqueID": "id-2168",
-      "name": "ThinWood",
+      "atomType": "CutLayout",
+      "x": 0.8776041666666666,
+      "y": 0.9082125603864735,
+      "uniqueID": "id-2645",
+      "name": "Cut Layout",
       "ioValues": [
         {
           "name": "geometry",
           "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "tags": [
-        "ThinWood"
-      ]
-    },
-    {
-      "atomType": "Tag",
-      "x": 0.6541666666666667,
-      "y": 0.4782608695652174,
-      "uniqueID": "id-2171",
-      "name": "ThinWood",
-      "ioValues": [
+        },
         {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "tags": [
-        "ThinWood"
-      ]
-    },
-    {
-      "atomType": "Tag",
-      "x": 0.6505208333333333,
-      "y": 0.6811594202898551,
-      "uniqueID": "id-2174",
-      "name": "ThickWood",
-      "ioValues": [
+          "name": "Sheet Width",
+          "ioValue": 2438
+        },
         {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
+          "name": "Sheet Height",
+          "ioValue": 1219
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 10
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 12
         }
       ],
-      "tags": [
-        "ThickWood"
+      "placements": [
+        [
+          {
+            "id": 3,
+            "rotate": 150,
+            "translate": {
+              "x": 45.62725886659666,
+              "y": 45.62725886659666
+            }
+          },
+          {
+            "id": 0,
+            "rotate": 0,
+            "translate": {
+              "x": 33.7251606,
+              "y": 123.9466313
+            }
+          },
+          {
+            "id": 1,
+            "rotate": 210,
+            "translate": {
+              "x": 55.359934270933664,
+              "y": 187.68062007093368
+            }
+          },
+          {
+            "id": 4,
+            "rotate": 0,
+            "translate": {
+              "x": 33.7251606,
+              "y": 251.41460890000002
+            }
+          },
+          {
+            "id": 2,
+            "rotate": 90,
+            "translate": {
+              "x": 48.021212600000005,
+              "y": 329.4600065
+            }
+          }
+        ]
       ]
     },
     {
-      "atomType": "Tag",
-      "x": 0.6541666666666667,
+      "atomType": "Export",
+      "x": 0.9828125000000001,
       "y": 0.8961352657004832,
-      "uniqueID": "id-2177",
-      "name": "ThickWood",
+      "uniqueID": "id-2646",
       "ioValues": [
         {
           "name": "geometry",
           "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "SVG",
+          "currentEquation": "SVG"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Maslow4_pen_holder_insert_for_router_core_replacement_cylinder_",
+          "currentEquation": "Maslow4_pen_holder_insert_for_router_core_replacement_cylinder_"
         }
       ],
-      "tags": [
-        "ThickWood"
-      ]
+      "type": "SVG",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Maslow4_pen_holder_insert_for_router_core_replacement_cylinder_"
     },
     {
-      "atomType": "Tag",
-      "x": 0.7161458333333333,
-      "y": 0.11835748792270533,
-      "uniqueID": "id-2180",
-      "name": "ThinWood",
+      "atomType": "Gcode",
+      "x": 0.9291666666666667,
+      "y": 0.9033816425120773,
+      "uniqueID": "id-2647",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 3.175
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 700
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Maslow4_pen_holder_insert_for_router_core_replacement_cylinder_",
+          "currentEquation": "Maslow4_pen_holder_insert_for_router_core_replacement_cylinder_"
+        }
+      ],
+      "partName": "Maslow4_pen_holder_insert_for_router_core_replacement_cylinder_",
+      "sortDirection": "Left"
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.8260416666666667,
+      "y": 0.6811594202898551,
+      "uniqueID": "id-2665",
+      "name": "Extract Tag",
       "ioValues": [
         {
           "name": "geometry",
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
-      "tags": [
-        "ThinWood"
-      ]
+      "tagIndex": 0
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.8244791666666667,
+      "y": 0.9130434782608695,
+      "uniqueID": "id-2668",
+      "name": "Extract Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tagIndex": 0
     }
   ],
   "allConnectors": [
@@ -3892,7 +4062,12 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "id-1222",
-      "ap2ID": "id-1264"
+      "ap2ID": "id-2665"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1222",
+      "ap2ID": "id-2668"
     },
     {
       "ap2Name": "geometry1",
@@ -3936,13 +4111,8 @@
     },
     {
       "ap2Name": "geometry",
-      "ap1ID": "id-462",
-      "ap2ID": "id-765"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-462",
-      "ap2ID": "id-768"
+      "ap1ID": "id-1264",
+      "ap2ID": "id-1713"
     },
     {
       "ap2Name": "Shape 6",
@@ -3960,9 +4130,44 @@
       "ap2ID": "id-1222"
     },
     {
+      "ap2Name": "Shape 9",
+      "ap1ID": "id-2177",
+      "ap2ID": "id-1222"
+    },
+    {
       "ap2Name": "Shape 5",
       "ap1ID": "id-2180",
       "ap2ID": "id-1222"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-462",
+      "ap2ID": "id-765"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-462",
+      "ap2ID": "id-768"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-2645",
+      "ap2ID": "id-2646"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-2645",
+      "ap2ID": "id-2647"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-2665",
+      "ap2ID": "id-1264"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-2668",
+      "ap2ID": "id-2645"
     }
   ],
   "unitsKey": "MM",

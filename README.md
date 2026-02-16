@@ -10,7 +10,11 @@
 
 **Value:** __GEOMETRY_INPUT__
 
-This is a pen holder that would replace the bottom two layers of the wooden router core replacement cylinder. Two pieces of rubber sheet (inner tube) can be cut to the dimensions of the top disk (which is not in the final assembly and then clamped between the thin circles and the main body of the pen holder. Pen or pencil can be inserted in the two middle holes in the rubber. 
+This is a pen holder that would replace the bottom two layers of the wooden router core replacement cylinder. Two pieces of rubber sheet (inner tube) can be cut to the dimensions of the top disk (which is not in the final assembly and then clamped between the thin circles and the main body of the pen holder. Pen or pencil can be inserted in the two middle holes in the rubber.  
+
+![readme](/readmeid-1258.svg?v=azktq2)
+
+
 
 This piece is the template for cutting the two rubber sheets. It will not be in the final assembly.  
 
