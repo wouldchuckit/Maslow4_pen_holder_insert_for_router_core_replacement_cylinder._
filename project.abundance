@@ -101,8 +101,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.43906249999999997,
-      "y": 0.8260869565217391,
+      "x": 0.45364583333333336,
+      "y": 0.818840579710145,
       "uniqueID": "id-462",
       "name": "Maslow4_Router_core_replacement_cylinder",
       "ioValues": [
@@ -2579,7 +2579,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 63
+          "ioValue": 57
         }
       ]
     },
@@ -2636,7 +2636,7 @@
       "x": 0.07760416666666667,
       "y": 0.7198067632850241,
       "uniqueID": "id-1112",
-      "name": "x - y",
+      "name": "x - 2*y",
       "ioValues": [
         {
           "name": "x",
@@ -2647,7 +2647,7 @@
           "ioValue": 6
         }
       ],
-      "currentEquation": "x - y"
+      "currentEquation": "x - 2*y"
     },
     {
       "atomType": "Equation",
@@ -2658,7 +2658,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 63
+          "ioValue": 57
         },
         {
           "name": "y",
@@ -2676,7 +2676,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 24
+          "ioValue": 18
         },
         {
           "name": "y",
@@ -2694,7 +2694,7 @@
       "ioValues": [
         {
           "name": "r",
-          "ioValue": 25.5
+          "ioValue": 24
         }
       ],
       "currentEquation": "-r"
@@ -2711,7 +2711,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 25.5
+          "ioValue": 24
         },
         {
           "name": "yDist",
@@ -2735,7 +2735,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": -25.5
+          "ioValue": -24
         },
         {
           "name": "yDist",
@@ -2835,8 +2835,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.23541666666666664,
-      "y": 0.7753623188405797,
+      "x": 0.23229166666666667,
+      "y": 0.8091787439613526,
       "uniqueID": "id-1166",
       "ioValues": [
         {
@@ -2865,8 +2865,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.3208333333333333,
-      "y": 0.8478260869565217,
+      "x": 0.3984375,
+      "y": 0.8961352657004832,
       "uniqueID": "id-1176",
       "ioValues": [
         {
@@ -2881,8 +2881,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.3203125,
-      "y": 0.7053140096618358,
+      "x": 0.4015625,
+      "y": 0.7318840579710144,
       "uniqueID": "id-1180",
       "ioValues": [
         {
@@ -2905,7 +2905,7 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.5802083333333333,
+      "x": 0.5828125,
       "y": 0.9057971014492753,
       "uniqueID": "id-1186",
       "ioValues": [
@@ -2965,7 +2965,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "extrude-cut-cut-cut-cut-cut-cut-cut-circle-31.5-circle-19.5-move-circle-1.5875-25.5-0-0-move-circle-1.5875--25.5-0-0-rotate-move-circle-1.5875-25.5-0-0-0-0-60-rotate-move-circle-1.5875--25.5-0-0-0-0-60-rotate-rotate-move-circle-1.5875-25.5-0-0-0-0-60-0-0-60-rotate-rotate-move-circle-1.5875--25.5-0-0-0-0-60-0-0-60-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12.7",
+            "geometry": "extrude-cut-cut-cut-cut-cut-cut-cut-circle-28.5-circle-19.5-move-circle-1.5875-24-0-0-move-circle-1.5875--24-0-0-rotate-move-circle-1.5875-24-0-0-0-0-60-rotate-move-circle-1.5875--24-0-0-0-0-60-rotate-rotate-move-circle-1.5875-24-0-0-0-0-60-0-0-60-rotate-rotate-move-circle-1.5875--24-0-0-0-0-60-0-0-60-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12.7",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -2994,8 +2994,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.5802083333333333,
-      "y": 0.7198067632850241,
+      "x": 0.5817708333333333,
+      "y": 0.717391304347826,
       "uniqueID": "id-1191",
       "ioValues": [
         {
@@ -3054,7 +3054,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-extrude-cut-cut-cut-cut-cut-cut-cut-circle-31.5-circle-19.5-move-circle-1.5875-25.5-0-0-move-circle-1.5875--25.5-0-0-rotate-move-circle-1.5875-25.5-0-0-0-0-60-rotate-move-circle-1.5875--25.5-0-0-0-0-60-rotate-rotate-move-circle-1.5875-25.5-0-0-0-0-60-0-0-60-rotate-rotate-move-circle-1.5875--25.5-0-0-0-0-60-0-0-60-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12.7-0-0-12.7",
+            "geometry": "move-extrude-cut-cut-cut-cut-cut-cut-cut-circle-28.5-circle-19.5-move-circle-1.5875-24-0-0-move-circle-1.5875--24-0-0-rotate-move-circle-1.5875-24-0-0-0-0-60-rotate-move-circle-1.5875--24-0-0-0-0-60-rotate-rotate-move-circle-1.5875-24-0-0-0-0-60-0-0-60-rotate-rotate-move-circle-1.5875--24-0-0-0-0-60-0-0-60-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12.7-0-0-12.7",
             "dimension": "3D",
             "tags": [],
             "plane": {
