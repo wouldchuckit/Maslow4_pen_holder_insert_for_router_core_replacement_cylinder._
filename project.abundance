@@ -3194,6 +3194,10 @@
         {
           "name": "Shape 4",
           "ioValue": null
+        },
+        {
+          "name": "Shape 5",
+          "ioValue": null
         }
       ]
     },
@@ -3321,6 +3325,75 @@
         }
       ],
       "currentEquation": "2*x + y"
+    },
+    {
+      "atomType": "Move",
+      "x": 0.7213541666666667,
+      "y": 0.13043478260869565,
+      "uniqueID": "id-1249",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 28.575
+        }
+      ]
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.8026041666666667,
+      "y": 0.27294685990338163,
+      "uniqueID": "id-1256",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "This piece is the template for cutting the two rubber sheets. It will not be in the final assembly. ",
+      "global": true
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.8093750000000001,
+      "y": 0.7922705314009661,
+      "uniqueID": "id-1258",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "This is a pen holder that would replace the bottom two layers of the wooden router be gone cylinder. Two pieces of rubber sheet (inner tube) can be cut to the dimensions of the top disk (which is not in the final assembly and then clamped between the thin circles and the main body of the pen holder. Pen or pencil can be inserted in the two middle holes in the rubber. ",
+      "global": true
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.03229166666666666,
+      "y": 0.46859903381642515,
+      "uniqueID": "id-1260",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "Readme text here",
+      "global": true
     }
   ],
   "allConnectors": [
@@ -3595,6 +3668,11 @@
       "ap2ID": "id-2"
     },
     {
+      "ap2Name": "value",
+      "ap1ID": "id-1222",
+      "ap2ID": "id-1258"
+    },
+    {
       "ap2Name": "geometry1",
       "ap1ID": "id-1229",
       "ap2ID": "id-1232"
@@ -3608,6 +3686,26 @@
       "ap2Name": "geometry",
       "ap1ID": "id-1236",
       "ap2ID": "id-1241"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1241",
+      "ap2ID": "id-1249"
+    },
+    {
+      "ap2Name": "zDist",
+      "ap1ID": "id-1245",
+      "ap2ID": "id-1249"
+    },
+    {
+      "ap2Name": "Shape 5",
+      "ap1ID": "id-1249",
+      "ap2ID": "id-1222"
+    },
+    {
+      "ap2Name": "value",
+      "ap1ID": "id-1249",
+      "ap2ID": "id-1256"
     }
   ],
   "unitsKey": "MM",
