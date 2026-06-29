@@ -4,15 +4,24 @@
 
 ![](/project.svg)
 
+## Inputs
+
+- **WoodThick** (number)
+- **WallThick** (number)
+- **Bit_Diameter** (number)
+- **ThinWoodThick** (number)
+- **RodDiameter** (number)
+
+
 
 
  The input values should match the values in the Maslow4 Router core replacement molecule referenced in this model. 
 
-**Value:** __GEOMETRY_INPUT__
+__GEOMETRY_INPUT__
 
 This is a pen holder that would replace the bottom two layers of the wooden router core replacement cylinder. Two pieces of rubber sheet (inner tube) can be cut to the dimensions of the top disk (which is not in the final assembly and then clamped between the thin circles and the main body of the pen holder. Pen or pencil can be inserted in the two middle holes in the rubber.  
 
-![readme](/readmeid-1258.svg?v=azktq2)
+![readme](/readmeid-1258.svg?v=p5k2e5)
 
 
 
@@ -24,7 +33,7 @@ This piece is the template for cutting the two rubber sheets. It will not be in 
 
 In it's current form this would need 6 1/8 in bolts and nuts at least 2.5 inches long. 
 
-**Value:** __GEOMETRY_INPUT__
+__GEOMETRY_INPUT__
 
 
 
